@@ -27,6 +27,10 @@ services:
   database:
     image: postgres:9.4
     restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
     volumes:
       - database-data:/var/lib/postgresql/data
   nginx:

@@ -119,3 +119,4 @@ Data persisted on the  named volumes, to see them:
        local               atlassian_confluence-data
        local               atlassian_jira-data
        local               atlassian_database-data
+# atlassian-docker-compose
